@@ -3,7 +3,7 @@
   (general
     (links 33)
     (no_connects 33)
-    (area 0 0 0 0)
+    (area 131.49326 101.324156 188.976 131.191001)
     (thickness 1.6)
     (drawings 0)
     (tracks 0)
@@ -37,11 +37,11 @@
   )
 
   (setup
-    (last_trace_width 0.254)
-    (trace_clearance 0.254)
+    (last_trace_width 0.2032)
+    (trace_clearance 0.2032)
     (zone_clearance 0.508)
     (zone_45_only no)
-    (trace_min 0.254)
+    (trace_min 0.2032)
     (segment_width 0.2)
     (edge_width 0.1)
     (via_size 0.889)
@@ -126,8 +126,8 @@
   (net 33 /CLK)
 
   (net_class Default "This is the default net class."
-    (clearance 0.254)
-    (trace_width 0.254)
+    (clearance 0.2032)
+    (trace_width 0.2032)
     (via_dia 0.889)
     (via_drill 0.635)
     (uvia_dia 0.508)
@@ -222,7 +222,7 @@
   )
 
   (module Capacitors_SMD:c_0402 (layer F.Cu) (tedit 540907CF) (tstamp 540907F1)
-    (at 148.5011 105.0036)
+    (at 151.13 105.41)
     (descr "SMT capacitor, 0402")
     (path /54091CCA)
     (fp_text reference C3 (at 0 -0.4826) (layer F.SilkS)
@@ -355,7 +355,7 @@
   )
 
   (module parts:MODULE_HEADER_TESSEL (layer F.Cu) (tedit 5409EA4A) (tstamp 5409EB99)
-    (at 207.01 107.95)
+    (at 176.53 119.38)
     (path /5409F754)
     (fp_text reference J2 (at 0 2.54) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.1)))
@@ -416,7 +416,7 @@
   )
 
   (module parts:MODULE_HEADER_TESSEL (layer F.Cu) (tedit 5409EA4A) (tstamp 5409EBB1)
-    (at 102.87 115.57)
+    (at 158.75 113.03)
     (path /5409F7C3)
     (fp_text reference J3 (at 0 2.54) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.1)))
