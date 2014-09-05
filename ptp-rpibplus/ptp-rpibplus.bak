@@ -115,7 +115,7 @@ SCL
 Text Label 6750 3650 0    60   ~ 0
 SDA
 Text Label 6750 3750 0    60   ~ 0
-CLK
+SCK
 Text Label 6750 3850 0    60   ~ 0
 MISO
 Text Label 6750 3950 0    60   ~ 0
@@ -179,7 +179,7 @@ SCL
 Text Label 9000 3650 0    60   ~ 0
 SDA
 Text Label 9000 3750 0    60   ~ 0
-CLK
+SCK
 Text Label 9000 3850 0    60   ~ 0
 MISO
 Text Label 9000 3950 0    60   ~ 0
