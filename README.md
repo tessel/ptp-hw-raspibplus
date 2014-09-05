@@ -1,3 +1,10 @@
-ptp-raspi-hw-addon
+ptp-hw-raspibplus
 ==================
-Open tessel-raspi-b-plus.sch or tessel-raspi-b-plus.brd in Eagle to open the project. This project is an adapter board for the Raspberry Pi so Tessel modules can connect to it.
+Hardware adaptor to allow Tessel modules to be used with a Raspberry Pi B+ in conjunction with the Portable Tessel Platform (PTP).
+
+Designs in KiCad.
+
+### License
+
+Copyright 2014 Technical Machine, Inc.
+CC-BY-SA
