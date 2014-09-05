@@ -248,13 +248,13 @@
     )
   )
 
-  (module parts:MODULE_HEADER_TESSEL (layer F.Cu) (tedit 5408C7B9) (tstamp 5409082B)
+  (module parts:MODULE_HEADER_TESSEL (layer F.Cu) (tedit 540908EA) (tstamp 5409082B)
     (at 158.75 88.9)
     (path /54091105)
     (fp_text reference J2 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.1)))
     )
-    (fp_text value MODULE_HEADER (at -13.97 0) (layer F.SilkS)
+    (fp_text value MODULE_HEADER (at -13.97 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.1)))
     )
     (fp_text user G3 (at 11.43 -1.651) (layer F.SilkS)
@@ -309,13 +309,13 @@
       (net 11 /A_G3))
   )
 
-  (module parts:MODULE_HEADER_TESSEL (layer F.Cu) (tedit 5408C7B9) (tstamp 54090839)
+  (module parts:MODULE_HEADER_TESSEL (layer F.Cu) (tedit 540908EC) (tstamp 54090839)
     (at 163.83 96.52)
     (path /54090A08)
     (fp_text reference J3 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.1)))
     )
-    (fp_text value MODULE_HEADER (at -13.97 0) (layer F.SilkS)
+    (fp_text value MODULE_HEADER (at -13.97 0) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.1)))
     )
     (fp_text user G3 (at 11.43 -1.651) (layer F.SilkS)
