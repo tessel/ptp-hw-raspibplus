@@ -57,17 +57,6 @@ F 3 "" H 3500 4350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MODULE_HEADER J2
-U 1 1 54091105
-P 6400 3750
-F 0 "J2" H 6050 4300 60  0000 C CNN
-F 1 "MODULE_HEADER" V 6100 3700 60  0000 C CNN
-F 2 "parts:MODULE_HEADER_TESSEL" H 6400 3750 60  0001 C CNN
-F 3 "" H 6400 3750 60  0000 C CNN
-	1    6400 3750
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR6
 U 1 1 54090657
 P 7200 3200
@@ -131,17 +120,6 @@ Text Label 6750 3850 0    60   ~ 0
 MISO
 Text Label 6750 3950 0    60   ~ 0
 MOSI
-$Comp
-L MODULE_HEADER J3
-U 1 1 54090A08
-P 8650 3750
-F 0 "J3" H 8300 4300 60  0000 C CNN
-F 1 "MODULE_HEADER" V 8350 3700 60  0000 C CNN
-F 2 "parts:MODULE_HEADER_TESSEL" H 8650 3750 60  0001 C CNN
-F 3 "" H 8650 3750 60  0000 C CNN
-	1    8650 3750
-	1    0    0    -1  
-$EndComp
 $Comp
 L GND #PWR8
 U 1 1 54090A0E
@@ -403,4 +381,28 @@ Wire Wire Line
 	3250 6900 3250 6800
 Connection ~ 3250 6300
 Connection ~ 3250 6900
+Text Notes 2600 2300 0    60   ~ 0
+No schematic available for B+ right now, \nand therefore its 3.3V output current is\nunknown. The onboard buck regulator is\nsuspected to be RT8020AGQW, which\nprovides 1A out. If not, we may need to\nadd one (5V to 3.3V, 500mA is plenty).
+$Comp
+L MODULE_HEADER J2
+U 1 1 5409F754
+P 6400 3750
+F 0 "J2" H 6050 4300 60  0000 C CNN
+F 1 "MODULE_HEADER" V 6100 3700 60  0000 C CNN
+F 2 "parts:MODULE_HEADER_TESSEL" H 6400 3750 60  0001 C CNN
+F 3 "" H 6400 3750 60  0000 C CNN
+	1    6400 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MODULE_HEADER J3
+U 1 1 5409F7C3
+P 8650 3750
+F 0 "J3" H 8300 4300 60  0000 C CNN
+F 1 "MODULE_HEADER" V 8350 3700 60  0000 C CNN
+F 2 "parts:MODULE_HEADER_TESSEL" H 8650 3750 60  0001 C CNN
+F 3 "" H 8650 3750 60  0000 C CNN
+	1    8650 3750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
