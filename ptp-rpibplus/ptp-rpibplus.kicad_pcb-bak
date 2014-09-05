@@ -58,11 +58,11 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 1.5 1.5)
-    (pad_drill 0.6)
+    (pad_size 6.2 6.2)
+    (pad_drill 2.75)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFF77F)
+    (visible_elements FFFFFF7F)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
@@ -167,8 +167,8 @@
     (add_net "Net-(J1-Pad7)")
   )
 
-  (module Capacitors_SMD:c_0805 (layer F.Cu) (tedit 53FC1B36) (tstamp 5409F26F)
-    (at 162.56 104.14)
+  (module Capacitors_SMD:c_0805 (layer F.Cu) (tedit 53FC1B36) (tstamp 540A0181)
+    (at 149.86 60.96)
     (descr "SMT capacitor, 0805")
     (path /54091A17)
     (fp_text reference C1 (at 0 -0.9906) (layer F.SilkS)
@@ -194,8 +194,8 @@
     )
   )
 
-  (module Capacitors_SMD:c_0402 (layer F.Cu) (tedit 5409F106) (tstamp 5409F27B)
-    (at 144.78 107.95)
+  (module Capacitors_SMD:c_0402 (layer F.Cu) (tedit 5409F106) (tstamp 540A0142)
+    (at 132.08 64.77)
     (descr "SMT capacitor, 0402")
     (path /54093199)
     (fp_text reference C2 (at 0 -0.4826) (layer F.SilkS)
@@ -221,8 +221,8 @@
     )
   )
 
-  (module Capacitors_SMD:c_0402 (layer F.Cu) (tedit 5409F106) (tstamp 5409F287)
-    (at 148.5011 105.0036)
+  (module Capacitors_SMD:c_0402 (layer F.Cu) (tedit 5409F106) (tstamp 540A0174)
+    (at 135.8011 61.8236)
     (descr "SMT capacitor, 0402")
     (path /54091CCA)
     (fp_text reference C3 (at 0 -0.4826) (layer F.SilkS)
@@ -248,32 +248,8 @@
     )
   )
 
-  (module parts:HOLE-2.75mm-6.2mm (layer F.Cu) (tedit 5409EDC5) (tstamp 5409F28C)
-    (at 125.73 102.87)
-    (path /5409FB3F)
-    (fp_text reference H1 (at 0 -5.08) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HOLE (at 0 5.08) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 6.2 6.2) (drill 2.75) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module parts:HOLE-2.75mm-6.2mm (layer F.Cu) (tedit 5409EDC5) (tstamp 5409F291)
-    (at 137.16 104.14)
-    (path /5409FC68)
-    (fp_text reference H2 (at 0 -5.08) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value HOLE (at 0 5.08) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (pad "" np_thru_hole circle (at 0 0) (size 6.2 6.2) (drill 2.75) (layers *.Cu *.Mask F.SilkS))
-  )
-
-  (module parts:HOLE-2.75mm-6.2mm (layer F.Cu) (tedit 5409EDC5) (tstamp 5409F296)
-    (at 161.29 114.3)
+  (module parts:HOLE-2.75mm-6.2mm (layer F.Cu) (tedit 5409F23E) (tstamp 540A0167)
+    (at 156.21 80.01)
     (path /5409FB58)
     (fp_text reference H3 (at 0 -5.08) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -281,11 +257,11 @@
     (fp_text value HOLE (at 0 5.08) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" np_thru_hole circle (at 0 0) (size 6.2 6.2) (drill 2.75) (layers *.Cu *.Mask F.SilkS))
+    (pad "" np_thru_hole circle (at -0.254 0) (size 6.2 6.2) (drill 2.75) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module Pin_Headers:Pin_Header_Straight_2x20 (layer F.Cu) (tedit 5409F106) (tstamp 5409F2CA)
-    (at 139.7 124.46)
+  (module Pin_Headers:Pin_Header_Straight_2x20 (layer F.Cu) (tedit 5409F106) (tstamp 540A01B6)
+    (at 127 80.01)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /54090FDC)
@@ -390,8 +366,8 @@
     )
   )
 
-  (module parts:MODULE_HEADER_TESSEL (layer F.Cu) (tedit 5409EA4A) (tstamp 5409F2E2)
-    (at 132.08 95.25)
+  (module parts:MODULE_HEADER_TESSEL (layer F.Cu) (tedit 5409EA4A) (tstamp 540A0135)
+    (at 119.38 52.07)
     (path /5409F754)
     (fp_text reference J2 (at 0 2.54) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.1)))
@@ -451,8 +427,8 @@
       (net 11 /A_G3))
   )
 
-  (module parts:MODULE_HEADER_TESSEL (layer F.Cu) (tedit 5409EA4A) (tstamp 5409F2FA)
-    (at 137.16 114.3)
+  (module parts:MODULE_HEADER_TESSEL (layer F.Cu) (tedit 5409EA4A) (tstamp 540A0161)
+    (at 124.46 71.12)
     (path /5409F7C3)
     (fp_text reference J3 (at 0 2.54) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.1)))
@@ -510,6 +486,30 @@
       (net 12 /B_G2/RX))
     (pad 10 thru_hole circle (at 11.43 0) (size 1.524 1.524) (drill 0.889) (layers *.Cu *.Mask F.SilkS)
       (net 13 /B_G3))
+  )
+
+  (module parts:HOLE-2.75mm-6.2mm (layer F.Cu) (tedit 5409EDC5) (tstamp 540A026D)
+    (at 98.044 80.01 90)
+    (path /5409FB3F)
+    (fp_text reference H1 (at 0 -5.08 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value HOLE (at 0 5.08 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 6.2 6.2) (drill 2.75) (layers *.Cu *.Mask F.SilkS))
+  )
+
+  (module parts:HOLE-2.75mm-6.2mm (layer F.Cu) (tedit 5409EDC5) (tstamp 540A011C)
+    (at 60.071 83.82)
+    (path /5409FC68)
+    (fp_text reference H2 (at 0 -5.08) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value HOLE (at 0 5.08) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 6.2 6.2) (drill 2.75) (layers *.Cu *.Mask F.SilkS))
   )
 
 )
