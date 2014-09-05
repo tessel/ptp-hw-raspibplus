@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-29 BZR 5106)-product   date = Fri 05 Sep 2014 09:53:50 AM PDT
+Cmp-Mod V01 Created by Cvpcb (2014-08-29 BZR 5106)-product   date = Fri 05 Sep 2014 10:18:34 AM PDT
 
 BeginCmp
 TimeStamp = /54091A17;
@@ -19,6 +19,27 @@ TimeStamp = /54091CCA;
 Reference = C3;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:c_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5409FB3F;
+Reference = H1;
+ValeurCmp = HOLE;
+IdModule  = parts:HOLE-2.75mm-6.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5409FC68;
+Reference = H2;
+ValeurCmp = HOLE;
+IdModule  = parts:HOLE-2.75mm-6.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5409FB58;
+Reference = H3;
+ValeurCmp = HOLE;
+IdModule  = parts:HOLE-2.75mm-6.2mm;
 EndCmp
 
 BeginCmp
