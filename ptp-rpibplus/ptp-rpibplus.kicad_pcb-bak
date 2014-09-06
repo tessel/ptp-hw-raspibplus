@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 91.635 67.762 160.020001 135.141)
     (thickness 1.6)
-    (drawings 16)
+    (drawings 15)
     (tracks 305)
     (zones 0)
     (modules 9)
@@ -510,7 +510,6 @@
       (net 13 /B_G3))
   )
 
-  (gr_line (start 97.6884 76.4794) (end 98.044 76.581) (layer Edge.Cuts) (width 0.2032))
   (gr_line (start 98.044 76.2) (end 97.8154 76.2127) (layer Dwgs.User) (width 0.0254) (tstamp 540A55A6))
   (gr_text "PTP Adaptor for\nRaspberry Pi B+" (at 144.145 86.995) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
