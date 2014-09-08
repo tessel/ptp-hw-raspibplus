@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/eric/github/ptp-hw-raspibplus/ptp-rpibplus/ptp-rpibplus.sch)
-    (date "Fri 05 Sep 2014 03:08:12 PM PDT")
+    (date "Mon 08 Sep 2014 12:27:58 PM PDT")
     (tool "Eeschema (2014-08-29 BZR 5106)-product"))
   (components
     (comp (ref J1)
@@ -57,8 +57,25 @@
       (footprint parts:HOLE-2.75mm-6.2mm)
       (libsource (lib parts) (part HOLE))
       (sheetpath (names /) (tstamps /))
-      (tstamp 5409FC68)))
+      (tstamp 5409FC68))
+    (comp (ref SILK1)
+      (value logo)
+      (libsource (lib parts) (part logo))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 540E032E)))
   (libparts
+    (libpart (lib device) (part C)
+      (description "Condensateur non polarise")
+      (footprints
+        (fp SM*)
+        (fp C?)
+        (fp C1-1))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
     (libpart (lib parts) (part HOLE)
       (fields
         (field (name Reference) H)
@@ -123,23 +140,15 @@
         (pin (num 38) (name GPIO20) (type input))
         (pin (num 39) (name GND) (type input))
         (pin (num 40) (name GPIO21) (type input))))
-    (libpart (lib device) (part C)
-      (description "Condensateur non polarise")
-      (footprints
-        (fp SM*)
-        (fp C?)
-        (fp C1-1))
+    (libpart (lib parts) (part logo)
       (fields
-        (field (name Reference) C)
-        (field (name Value) C))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive)))))
+        (field (name Reference) SILK)
+        (field (name Value) logo))))
   (libraries
-    (library (logical parts)
-      (uri /home/eric/github/kicad-resources/parts.lib))
     (library (logical device)
-      (uri /usr/local/share/kicad/library/device.lib)))
+      (uri /usr/local/share/kicad/library/device.lib))
+    (library (logical parts)
+      (uri /home/eric/github/kicad-resources/parts.lib)))
   (nets
     (net (code 1) (name GND)
       (node (ref J1) (pin 39))

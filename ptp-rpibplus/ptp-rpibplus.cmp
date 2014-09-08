@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-29 BZR 5106)-product   date = Fri 05 Sep 2014 03:10:09 PM PDT
+Cmp-Mod V01 Created by Cvpcb (2014-08-29 BZR 5106)-product   date = Mon 08 Sep 2014 12:28:39 PM PDT
 
 BeginCmp
 TimeStamp = /54091A17;
@@ -61,6 +61,13 @@ TimeStamp = /5409F7C3;
 Reference = J3;
 ValeurCmp = MODULE_HEADER;
 IdModule  = parts:MODULE_HEADER_TESSEL;
+EndCmp
+
+BeginCmp
+TimeStamp = /540E032E;
+Reference = SILK1;
+ValeurCmp = logo;
+IdModule  = parts:PTP-RPI-LOGO;
 EndCmp
 
 EndListe
